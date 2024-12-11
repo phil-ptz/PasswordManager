@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-cb52687e513c60fdab40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PasswordManager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PasswordManager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PasswordManager-Debug-f095c417013885942509.json",
+					"name" : "PasswordManager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PasswordManager_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PasswordManager_autogen-Debug-9e96931c63248d0f46a1.json",
+					"name" : "PasswordManager_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PasswordManager_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PasswordManager_autogen_timestamp_deps-Debug-2f79fd79a2dd82326635.json",
+					"name" : "PasswordManager_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/phil/Documents/dev/PasswordManager/build/Qt_6_8_1_for_macOS-Debug",
+		"source" : "/Users/phil/Documents/dev/PasswordManager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

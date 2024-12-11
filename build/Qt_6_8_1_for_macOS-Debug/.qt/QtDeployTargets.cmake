@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_PasswordManager_FILE /Users/phil/Documents/dev/PasswordManager/build/Qt_6_8_1_for_macOS-Debug/PasswordManager.app/Contents/MacOS/PasswordManager)
+set(__QT_DEPLOY_TARGET_PasswordManager_TYPE EXECUTABLE)

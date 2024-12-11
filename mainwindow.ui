@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTreeView" name="treeView">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>41</y>
+      <width>211</width>
+      <height>491</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>245</x>
+      <y>41</y>
+      <width>551</width>
+      <height>491</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDatei">
+    <property name="title">
+     <string>Datei</string>
+    </property>
+    <addaction name="NewButton"/>
+    <addaction name="OpenButton"/>
+    <addaction name="separator"/>
+    <addaction name="ImportButton"/>
+    <addaction name="ExportButton"/>
+    <addaction name="separator"/>
+    <addaction name="QuitButton"/>
+   </widget>
+   <widget class="QMenu" name="menuAnsicht">
+    <property name="title">
+     <string>Ansicht</string>
+    </property>
+    <addaction name="FullscreenButton"/>
+   </widget>
+   <widget class="QMenu" name="menuExtras">
+    <property name="title">
+     <string>Extras</string>
+    </property>
+    <addaction name="SettingsButton"/>
+   </widget>
+   <addaction name="menuDatei"/>
+   <addaction name="menuAnsicht"/>
+   <addaction name="menuExtras"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="OpenButton">
+   <property name="text">
+    <string>Öffnen</string>
+   </property>
+  </action>
+  <action name="ImportButton">
+   <property name="text">
+    <string>Importieren</string>
+   </property>
+  </action>
+  <action name="ExportButton">
+   <property name="text">
+    <string>Exportieren</string>
+   </property>
+  </action>
+  <action name="QuitButton">
+   <property name="text">
+    <string>Beenden</string>
+   </property>
+  </action>
+  <action name="FullscreenButton">
+   <property name="text">
+    <string>Vollbild</string>
+   </property>
+  </action>
+  <action name="SettingsButton">
+   <property name="text">
+    <string>Einstellungen</string>
+   </property>
+  </action>
+  <action name="NewButton">
+   <property name="text">
+    <string>Neu</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
